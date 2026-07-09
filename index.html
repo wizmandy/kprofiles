@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>K-Pop Profiles</title>
+    <link rel="icon" href="logo.png"  type="image/png">
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <header>
+        <h1>K-Pop Profiles</h1>
+        <p>Perfis de grupos e integrantes de K-pop</p>
+    </header>
+    <section id="grupos" class="groups-section">
+        <h2>Grupos</h2>
+        <input
+            type="text"
+            id="searchInput"
+            class="search-input"
+            placeholder="Pesquisar grupo..."
+        >
+        <div class="groups-container" id="groupsContainer">
+            <!-- Os cards aparecem pelo JavaScript -->
+        </div>
+    </section>
+    <section id="profileArea" class="profile-area">
+        <!-- Perfil do grupo aparece aqui -->
+    </section>
+    <footer>
+        <p>Feito por Amanda ♡ | Site fanmade</p>
+    </footer>
+    <div id="imageModa1" class="image-moda1">
+        <span class="close-btn" onclick="closeImage()">&times;</span>
+        <img id="moda1Img">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
